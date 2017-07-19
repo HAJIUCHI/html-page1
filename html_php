@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+　<html lang="ja">
+　　<head>
+　　　<meta charset="UTF-8">
+　　　<title>PHP文法（HTML5&PHP）</title>
+　　</head>
+　　<body>
+　　　
+<?php
+ 
+date_default_timezone_set('Asia/Tokyo');
+ 
+echo ('<p>今日は'); 
+echo date('Y年m月d日');
+echo ('ですよ！</p>'); 
+ 
+?>
+　　　
+　　</body>
+　</html>
